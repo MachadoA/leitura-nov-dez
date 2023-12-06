@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import lucasAtosData from '../../data/lucasAtos.json';
+// import lucasAtosData from '../../data/lucasAtos.json';
 import Button from '../Button/Button';
 
 import style from './Date.module.css';
@@ -34,13 +34,10 @@ export default function DateNow() {
 
     const fetchSentence = async () => {
       try {
-        const response = await new Promise((resp) => {
-          setTimeout(() => {
-            resp({ data: lucasAtosData });
-          }, 1000);
-        });
+        const response = await fetch('../../data/lucasAtos.json');
+        const data = await response.json();
 
-        if (response.data && response.data.length > 0) {
+        if (data && data.length > 0) {
           const calculatedId = calculateId();
           const setenceToday = response.data.find((item) => item.id === calculatedId);
 
