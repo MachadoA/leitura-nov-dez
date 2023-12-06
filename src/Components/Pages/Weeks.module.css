@@ -1,0 +1,66 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    height: auto;
+    padding: 2em 0;
+}
+
+.weeksContainer{
+    background-color: #fff;
+    border-radius: 18px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    width: 150px;
+    height: 260px;
+    text-align: center;
+    padding: 2em 15px;
+}
+
+.information{
+    padding: 1em 0;
+    font-style: italic;
+}
+.informationWeek{
+    padding-bottom: 15px;
+}
+
+.buttonLink{
+    border: none;
+    color: #fff;
+    background-color:hsl(356, 100%, 66%) ;
+    margin-right: 15px;
+    width: 120px;
+    height: 60px;
+    border-radius: 18px;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+.buttonLink:hover{
+    background-color: #eaeaea;
+    color: hsl(356, 100%, 66%);
+}
+
+a{text-decoration: none; color: inherit;}
+
+.imgPlaner{
+    padding: 2em 0;
+}
+
+@media (min-width: 900px) {
+    .container{
+        width: 900px;
+    }
+    .weeksContainer{
+        width: 280px;
+        height: 280px;
+    }
+    .buttonLink{
+        width: 160px;
+        height: 60px;
+    }
+}

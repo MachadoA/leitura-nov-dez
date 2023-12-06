@@ -1,0 +1,45 @@
+.date::first-letter{
+    text-transform: uppercase;
+}
+.date{
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.weekContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4em;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.weekContainer h1{text-align: center;}
+
+.articles{
+    text-align: center;
+}
+.articles p{
+    font-style: italic;
+}
+
+.main{
+    margin: 2em 0;
+    padding: 2em 15px;
+    text-align: center;
+    background: linear-gradient(90deg, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+    border-radius: 18px;
+    color: #fff;
+}
+.main h2{
+    color: #fff;
+    padding: 20px 0;
+}
+
+.question{
+    padding: 15px 0 1em;
+}
+
+
+

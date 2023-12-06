@@ -1,0 +1,45 @@
+.homeContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4em;
+}
+
+.homeContainer h1{text-align: center;}
+
+.bible{
+    max-width: 350px;
+    width: 100%;
+    margin: 3em 0;
+    border-radius: 18px;
+}
+
+.btnSide{
+    text-align: center;
+}
+
+
+@media (min-width: 768px) and (max-width: 920px) {
+    .bible{
+        max-width: 768px;
+    }
+    .btnSide{
+        display: flex;
+        justify-content: space-evenly;
+        width: 768px;
+        padding-bottom: 2em;
+    }
+}
+@media (min-width: 921px) {
+    .bible{
+        max-width: 921px;
+    }
+    .btnSide{
+        display: flex;
+        justify-content: space-evenly;
+        width: 921px;
+        padding-bottom: 2em;
+    }
+}

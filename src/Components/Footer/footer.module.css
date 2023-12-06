@@ -1,0 +1,29 @@
+.footer{
+    background-color: hsl(240, 10%, 16%);;
+    color: hsl(240, 2%, 79%);
+    padding: 40px 0;
+}
+
+.socialList{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.item svg{
+    width: 35px;
+    height: 35px;
+}
+
+.item a{
+    color: hsl(240, 2%, 79%);
+    font-family: inherit;
+}
+.item a:hover{
+    color: #fff;
+}
+
+.name{
+    text-align: center;
+    padding-top: 2em;
+}

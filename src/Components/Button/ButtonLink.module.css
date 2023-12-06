@@ -1,0 +1,26 @@
+.btnLink{
+    border: none;
+    color: #fff;
+    background-color:#c92135;
+    height: 60px;
+    padding: 0 15px;
+    border-radius: 18px;
+    font-family: 'Overpass', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    margin-bottom: 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btnLink:hover{
+    background-color: hsl(237, 23%, 32%);
+}
+
+@media(min-width: 900px){
+    .btnLink{
+        width: 240px;
+    }
+}
