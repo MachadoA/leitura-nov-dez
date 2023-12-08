@@ -1,9 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef } from 'react';
 import style from './InstallApp.module.css'
 import Button from '../Button/Button';
 
 export default function InstallApp({showModal, setShowModal}) {
     let deferredPrompt;
+
+    const deferredPromptRef = useRef();
 
     const handleModalResponse = (response) => {
         setShowModal(false);
@@ -23,7 +25,7 @@ export default function InstallApp({showModal, setShowModal}) {
       useEffect(() => {
         const handleBeforeInstallPrompt = (event) => {
           event.preventDefault();
-          deferredPrompt = event;
+          deferredPromptRef.current = event;
           setShowModal(true);
         };
     
