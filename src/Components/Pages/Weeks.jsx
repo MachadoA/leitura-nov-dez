@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import styles from './Weeks.module.css';
-import dataJson from '../../data/lucasAtos.json';
 import Button from '../Button/Button';
+// import dataJson from 'data/lucasAtos.json';
 
-// import publicPDF from '../../../public/pdf/4a-week.pdf';
 
 export default function Weeks() {
   const [weeksData, setWeeksData] = useState([]);
@@ -11,21 +10,18 @@ export default function Weeks() {
   useEffect(() => {
     const WeeksInformations = async () => {
       try {
-        const response = await new Promise((datos) => {
-          setTimeout(() => {
-            datos({ data: dataJson });
-          }, 1000);
-        });
+        const response = await fetch('/data/lucasAtos.json');
+        const data = await response.json();
 
-        const equalData = response.data.reduce((saveDatos, week) => {
+        setWeeksData(data);
+
+        const equalData = data.reduce((saveDatos, week) => {
           const { weekday } = week;
           if (!saveDatos[weekday]) {
             saveDatos[weekday] = week;
           }
           return saveDatos;
         }, {});
-
-
         const onlyElement = Object.values(equalData);
 
         setWeeksData(onlyElement);

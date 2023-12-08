@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-// import lucasAtosData from '../../data/lucasAtos.json';
 import Button from '../Button/Button';
 
 import style from './Date.module.css';
@@ -34,14 +33,16 @@ export default function DateNow() {
 
     const fetchSentence = async () => {
       try {
-        const response = await fetch('../../data/lucasAtos.json');
-        const data = await response.json();
-
-        if (data && data.length > 0) {
+        const response = await fetch('/data/lucasAtos.json');
+        const data = await response.json(); 
+        if (data && Array.isArray(data) && data.length > 0) {        
           const calculatedId = calculateId();
-          const setenceToday = response.data.find((item) => item.id === calculatedId);
+          const setenceToday = data.find((item) => item.id === calculatedId);
 
           setSentence(setenceToday || null);
+        }
+        else {
+          console.error('O JSON não contém um array válido ou está vazio.');
         }
       } catch (error) {
         console.error('Erro ao buscar frases:', error);
@@ -52,7 +53,6 @@ export default function DateNow() {
   }, []);
 
   const handleViewPlan = (weekFile) => {
-
     const link = document.createElement('a');
     link.href = `/pdf/${weekFile}`;
     link.download = `${weekFile}`; 
