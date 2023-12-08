@@ -13,7 +13,6 @@ function App() {
   return (
     <BrowserRouter>
       <AppContent />
-      
     </BrowserRouter>
   );
 }
@@ -35,15 +34,6 @@ function AppContent() {
         </Routes>
       </Container>
       <Footer pageUrl={window.location.href} />
-
-      {/* Adicionando meta tags para ícones na tela inicial */}
-      <meta name="apple-mobile-web-app-capable" content="yes" />
-      <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-      <meta name="apple-mobile-web-app-title" content="Lucas e Atos" />
-      <link rel="apple-touch-icon" href="/reading-bible.png" />
-
-      {/* Adicionando meta tag manifest para Android */}
-      <link rel="manifest" href="/manifest.json" />
     </>
   );
 }

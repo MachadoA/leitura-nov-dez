@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom';
 import Home from './Components/Pages/Home';
 import Week from './Components/Pages/Week';
@@ -6,34 +6,24 @@ import Weeks from './Components/Pages/Weeks';
 import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
 import Container from './Components/Pages/Container';
+import InstallApp from './Components/Controls/InstallApp';
 
 import './App.css';
 
 function App() {
+  const [showModal, setShowModal] = useState(true);
+
   return (
     <BrowserRouter>
-      <HeadContent />
-      <div>
+      <>
+        <div>
         <Header />
         <AppContainer />
         <Footer pageUrl={window.location.href} />
-      </div>
+        </div>
+        <InstallApp showModal={showModal} setShowModal={setShowModal}/>
+      </>  
     </BrowserRouter>
-  );
-}
-
-function HeadContent() {
-  return (
-    <>
-      {/* Adicionando meta tags para ícones na tela inicial */}
-      <meta name="apple-mobile-web-app-capable" content="yes" />
-      <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-      <meta name="apple-mobile-web-app-title" content="Lucas e Atos" />
-      <link rel="apple-touch-icon" href="/reading-bible.png" />
-
-      {/* Adicionando meta tag manifest para Android */}
-      <link rel="manifest" href="/manifest.json" />
-    </>
   );
 }
 
