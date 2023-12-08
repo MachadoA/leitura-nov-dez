@@ -12,19 +12,30 @@ import './App.css';
 function App() {
   return (
     <BrowserRouter>
-      <HeadContent />
-      <div>
-        <Header />
-        <AppContainer />
-        <Footer pageUrl={window.location.href} />
-      </div>
+      <AppContent />
+      
     </BrowserRouter>
   );
 }
 
-function HeadContent() {
+function AppContent() {
+  const location = useLocation();
+  const containerClass = location.pathname === '/Weeks' ? 'height-auto' : 'min-height';
+
   return (
     <>
+      <Header />
+      <Container customClass={containerClass}>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path='/Week' element={<Week />} />
+          <Route path='/Weeks' element={<Weeks />} />
+          {/* <Route path="/pdf/:file" render={() => null} /> */}
+          {/* <Route path="/pdf/*" render={() => null} /> */}
+        </Routes>
+      </Container>
+      <Footer pageUrl={window.location.href} />
+
       {/* Adicionando meta tags para ícones na tela inicial */}
       <meta name="apple-mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-status-bar-style" content="default" />
@@ -36,23 +47,5 @@ function HeadContent() {
     </>
   );
 }
-
-function AppContainer() {
-  const location = useLocation();
-  const containerClass = location.pathname === '/Weeks' ? 'height-auto' : 'min-height';
-
-  return (
-    <Container customClass={containerClass}>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path='/Week' element={<Week />} />
-        <Route path='/Weeks' element={<Weeks />} />
-        {/* <Route path="/pdf/:file" render={() => null} /> */}
-        {/* <Route path="/pdf/*" render={() => null} /> */}
-      </Routes>
-    </Container>
-  );
-}
-
 
 export default App;
