@@ -1,4 +1,4 @@
-import React, {  useState } from 'react';
+import React  from 'react';
 import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom';
 import Home from './Components/Pages/Home';
 import Week from './Components/Pages/Week';
@@ -6,12 +6,12 @@ import Weeks from './Components/Pages/Weeks';
 import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
 import Container from './Components/Pages/Container';
-import InstallApp from './Components/Controls/InstallApp';
+import Popup from './Components/Controls/Popup';
 
 import './App.css';
 
 function App() {
-  const [showModal, setShowModal] = useState(true);
+
 
   return (
     <BrowserRouter>
@@ -21,7 +21,7 @@ function App() {
         <AppContainer />
         <Footer pageUrl={window.location.href} />
         </div>
-        <InstallApp showModal={showModal} setShowModal={setShowModal}/>
+        <Popup />
       </>  
     </BrowserRouter>
   );

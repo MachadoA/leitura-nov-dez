@@ -270,7 +270,9 @@
         "weekday": "5",
         "readWeek": "Lucas 22 ao 24",
         "date": "30",
-        "read": "Lucas 22"
+        "read": "Lucas 22",
+        "question": "1. Neste capítulo, no meio do conflito do plano de morte até o interrogatório de Jesus perante o Sinédrio, há a narrativa da última Páscoa. Dentre todos estes eventos, qual mais mexeu com a tua alma? ",
+        "file": "5a-week.pdf"
     },
     {
         "id": 30, 
@@ -278,7 +280,9 @@
         "weekday": "5",
         "readWeek": "Lucas 22 ao 24",
         "date": "31",
-        "read": "Lucas 23"
+        "read": "Lucas 23",
+        "question": "1. Qual (ou quais) era(m) a culpa de Jesus? 2. Quem foi crucificado com ele? E qual a promessa que Jesus fez a um deles? 3.Como foi a morte de Jesus?",
+        "file": "5a-week.pdf"
     },
     {
         "id": 31, 
@@ -286,7 +290,10 @@
         "weekday": "5",
         "readWeek": "Lucas 22 ao 24",
         "date": "32",
-        "read": "Lucas 24"
+        "read": "Lucas 24",
+        "question": "1. Como se comprovou a ressurreição de Jesus? Quem o viu? ",
+        "file": "5a-week.pdf"
+
     },
     {
         "id": 32, 
@@ -294,7 +301,9 @@
         "weekday": "5",
         "readWeek": "Lucas 22 ao 24",
         "date": "33",
-        "read": "Resumo"
+        "read": "Resumo",
+        "file": "5a-week.pdf"
+
     },
     {
         "id": 33, 
@@ -302,7 +311,8 @@
         "weekday": "5",
         "readWeek": "Lucas 22 ao 24",
         "date": "34",
-        "read": "Resumo"
+        "read": "Resumo",
+        "file": "5a-week.pdf"
     },
     {
         "id": 34, 
@@ -310,7 +320,8 @@
         "weekday": "5",
         "readWeek": "Lucas 22 ao 24",
         "date": "35",
-        "read": "Enviar resumo. Último dia!"
+        "read": "Enviar resumo. Penúltimo dia!",
+        "file": "5a-week.pdf"
     },
     {
         "id": 35, 
@@ -318,7 +329,8 @@
         "weekday": "5",
         "readWeek": "Lucas 22 ao 24",
         "date": "36",
-        "read": "Enviar resumo. Último dia!"
+        "read": "Enviar resumo. Último dia!",
+        "file": "5a-week.pdf"
     },
     {
         "id": 36, 
