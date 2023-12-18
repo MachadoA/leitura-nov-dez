@@ -16,16 +16,17 @@ body {
 
 p{font-size: 16px; font-family: 'Overpass', sans-serif;}
 button, a{font-size: 14px; font-family: 'Overpass', sans-serif;}
-/* a{font-size: 14px; font-family: 'Overpass', sans-serif;} */
+a{font-size: 14px; font-family: 'Ubuntu', sans-serif;}
 
 h1{font-size: 20px; color: hsl(208, 49%, 24%); font-family: 'Ubuntu', sans-serif;}
 h2{font-size: 18px; color: hsl(208, 49%, 24%); font-family: 'Ubuntu', sans-serif;}
 
+li a{font-family: 'Ubuntu'}
 @media(min-width:768px){
-  p{font-size: 18px;}
-  button, a{font-size: 20px;}
-  h1{font-size: 26px;}
-  h2{font-size: 24px;}
+  p{font-size: 16px;}
+  button, a{font-size: 16px;}
+  h1{font-size: 24px;}
+  h2{font-size: 22px;}
 }
 
 

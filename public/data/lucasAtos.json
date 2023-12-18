@@ -316,141 +316,160 @@
     },
     {
         "id": 34, 
-        "week": "de 17 a 24 de dezembro",
+        "week": "de 11 a 16 de dezembro",
         "weekday": "5",
         "readWeek": "Lucas 22 ao 24",
         "date": "35",
-        "read": "Enviar resumo. Penúltimo dia!",
+        "read": "Enviar resumo. Último dia!",
         "file": "5a-week.pdf"
     },
     {
         "id": 35, 
-        "week": "de 11 a 16 de dezembro",
-        "weekday": "5",
-        "readWeek": "Lucas 22 ao 24",
-        "date": "36",
-        "read": "Enviar resumo. Último dia!",
-        "file": "5a-week.pdf"
+        "week": "de 17 a 24 de dezembro",
+        "weekday": "6",
+        "readWeek": "Atos 1 ao 18",
+        "date": "37",
+        "read": "Atos 1 ao 3",
+        "question": "1. Nestes capítulos, ocorrem o cumprimento da promessa de Jesus ao afirmar “João batizou com água, mas vós sereis batizados com o Espírito Santo”. Como o Espírito Santo “desceu” sobre os que clamaram e como influenciou Pedro no discurso no templo? ",
+        "file": "6a-week.pdf"
     },
     {
         "id": 36, 
         "week": "de 17 a 24 de dezembro",
         "weekday": "6",
-        "readWeek": "Atos 1 ao 12",
-        "date": "37",
-        "read": "Atos 1 e 2"
+        "readWeek": "Atos 1 ao 18",
+        "date": "38",
+        "read": "Atos 4 ao 6",
+        "question": "1. Aqui vemos o surgimento da Igreja. Explique como era a comunidade, o que fizeram Ananias e Safira, e qual a função do diácono?",
+        "file": "6a-week.pdf"
     },
     {
         "id": 37, 
         "week": "de 17 a 24 de dezembro",
         "weekday": "6",
-        "readWeek": "Atos 1 ao 12",
+        "readWeek": "Atos 1 ao 18",
         "date": "38",
-        "read": "Atos 3 e 4"
+        "read": "Atos 7 ao 9",
+         "question": "1. Relacione a morte de Estevão e a conversão de Saulo. 2. Em que aspeto Estevão se assemelhou a Jesus ao morrer? 3. Quem conduziu Filipe e por quê?",
+        "file": "6a-week.pdf"
     },
     {
         "id": 38, 
         "week": "de 17 a 24 de dezembro",
         "weekday": "6",
-        "readWeek": "Atos 1 ao 12",
+        "readWeek": "Atos 1 ao 18",
         "date": "39",
-        "read": "Atos 5 e 6"
+        "read": "Atos 10 ao 12",
+         "question": "1. Qual o significado das visões que Pedro teve e sua relação com a nossa conversão, os gentios?",
+        "file": "6a-week.pdf"
     },
     {
         "id": 39, 
         "week": "de 17 a 24 de dezembro",
         "weekday": "6",
-        "readWeek": "Atos 1 ao 12",
+        "readWeek": "Atos 1 ao 18",
         "date": "40",
-        "read": "Atos 7 e 8"
+        "read": "Atos 13 ao 15",
+         "question": "1. Barnabé e Saulo foram enviados a igreja de Antioquia. Quem foi a pessoa responsável por este envio? 2. Dentro desses capítulos, quantos cidades foram impactadas pela ministração sobre Jesus e quais foram?",
+        "file": "6a-week.pdf"
     },
     {
         "id": 40, 
         "week": "de 17 a 24 de dezembro",
         "weekday": "6",
-        "readWeek": "Atos 1 ao 12",
+        "readWeek": "Atos 1 ao 18",
         "date": "41",
-        "read": "Atos 9 e 10"
+        "read": "Atos 16 ao 18",
+         "question": "1. Como se chamavam as cidades visitadas por Paulo nos capítulos de 16 a 18 de Atos? 2. O altar ateniense dedicava-se ao Deus desconhecido. Quem é Ele?",
+        "file": "6a-week.pdf"
     },
     {
         "id": 41, 
         "week": "de 17 a 24 de dezembro",
         "weekday": "6",
-        "readWeek": "Atos 1 ao 12",
+        "readWeek": "Atos 1 ao 18",
         "date": "42",
-        "read": "Atos 11 e 12"
+        "read": "Resumo",
+        "file": "6a-week.pdf"
     },
     {
         "id": 42, 
         "week": "de 17 a 24 de dezembro",
         "weekday": "6",
-        "readWeek": "Atos 1 ao 12",
+        "readWeek": "Atos 1 ao 18",
         "date": "43",
-        "read": "Resumo"
+        "read": "Resumo",
+        "file": "6a-week.pdf"
     },
     {
         "id": 43, 
-        "week": "de 17 a 24 de dezembro",
-        "weekday": "6",
-        "readWeek": "Atos 1 ao 12",
+        "week": "de 25 a 31 de dezembro",
+        "weekday": "7",
+        "readWeek": "Atos 19 ao 28",
         "date": "44",
-        "read": "Resumo"
+        "read": "Atos 19 e 20",
+        "question": "",
+        "file": "7a-week.pdf"
     },
     {
         "id": 44, 
         "week": "de 25 a 31 de dezembro",
         "weekday": "7",
-        "readWeek": "Atos 15 ao 28",
+        "readWeek": "Atos 19 ao 28",
         "date": "45",
-        "read": "Atos 13, 14 e 15"
+        "read": "Atos 21 e 22",
+        "question": "",
+        "file": "7a-week.pdf"
     },
     {
         "id": 45, 
         "week": "de 25 a 31 de dezembro",
         "weekday": "7",
-        "readWeek": "Atos 15 ao 28",
+        "readWeek": "Atos 19 ao 28",
         "date": "46",
-        "read": "Atos 16, 17 e 18"
+        "read": "Atos 23 e 24",
+        "question": "",
+        "file": "7a-week.pdf"
     },
     {
         "id": 46, 
         "week": "de 25 a 31 de dezembro",
         "weekday": "7",
-        "readWeek": "Atos 15 ao 28",
+        "readWeek": "Atos 19 ao 28",
         "date": "47",
-        "read": "Atos 19, 20 e 21"
+        "read": "Atos 25 e 26",
+        "question": "",
+        "file": "7a-week.pdf"
     },
     {
         "id": 47, 
         "week": "de 25 a 31 de dezembro",
         "weekday": "7",
-        "readWeek": "Atos 15 ao 28",
+        "readWeek": "Atos 19 ao 28",
         "date": "48",
-        "read": "Atos 22, 23, 24 e 25"
+        "read": "Atos 27 e 28",
+        "question": "",
+        "file": "7a-week.pdf"
     },
     {
         "id": 48, 
         "week": "de 25 a 31 de dezembro",
         "weekday": "7",
-        "readWeek": "Atos 15 ao 28",
+        "readWeek": "Atos 19 ao 28",
         "date": "49",
-        "read": "Atos 26, 27 e 28"
+        "read": "Resumo",
+        "question": "",
+        "file": "7a-week.pdf"
     },
     {
         "id": 49, 
         "week": "de 25 a 31 de dezembro",
         "weekday": "7",
-        "readWeek": "Atos 15 ao 28",
+        "readWeek": "Atos 19 ao 28",
         "date": "50",
-        "read": "Resumo"
-    },
-    {
-        "id": 50, 
-        "week": "de 25 a 31 de dezembro",
-        "weekday": "7",
-        "readWeek": "Atos 15 ao 28",
-        "date": "51",
-        "read": "Enviar resumo. Último dia!"
+        "read": "Enviar resumo. Último dia!",
+        "question": "",
+        "file": "7a-week.pdf"
     }
 
 ]
