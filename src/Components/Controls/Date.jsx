@@ -71,7 +71,7 @@ export default function DateNow() {
         <article className={style.main}>
           <p> Dia {sentence.date}</p>
           <p className={style.date}>{currentDate}</p>
-          <p>Leitura do Dia: {sentence.read}</p>
+          <p>Leitura do Dia: {sentence.read || 'Plano de leitura encerrado!'}</p>
         </article>
 
         <article className={style.articles}>
