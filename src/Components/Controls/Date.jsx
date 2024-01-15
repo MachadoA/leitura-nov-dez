@@ -28,6 +28,7 @@ export default function DateNow() {
       const diffInDays = Math.floor((currentDate - startDate) / (1000 * 60 * 60 * 24));
       const calculatedId = 0 + diffInDays;
 
+
       return calculatedId;
     };
 
@@ -61,7 +62,7 @@ export default function DateNow() {
 
   return (
     <>
-    {sentence && (
+    {sentence ? (
     <section key={sentence.id} className={style.weekContainer}>
         <article className={style.articles} key={sentence.id}>
           <h2>Semana atual: {sentence.week}</h2>
@@ -80,7 +81,15 @@ export default function DateNow() {
           <Button label="baixar" onClick={() => handleViewPlan(sentence.file)}/>          
         </article>
     </section>
-    )}
+    ) : (
+      <section className={style.weekContainer}>
+        <article className={style.main}>
+          <p className={style.date}>{currentDate}</p>
+          <p>Plano de leitura encerrado em 31 de dezembro de 2023.</p>
+        </article>
+      </section>
+    )
+  }
   </>
   );
 }
