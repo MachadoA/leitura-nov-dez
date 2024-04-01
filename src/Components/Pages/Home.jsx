@@ -26,8 +26,8 @@ export default function Home() {
         <h1>Bem-vindo(a) ao teu plano de Leitura Lucas e Atos!</h1>
         <img className={styles.bible} src={imageUrl} alt='Children read the bible' />
         <div className={styles.btnSide}>
-        <ButtonLink label='Leitura do dia' to="/Week" />
-        <ButtonLink label='Ver plano' to="/Weeks" />
+          <ButtonLink label='Leitura do dia' to="/Week" />
+          <ButtonLink label='Ver plano' to="/Weeks" />
         </div>
     </section>
   )
