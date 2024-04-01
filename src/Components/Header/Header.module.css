@@ -1,0 +1,43 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   background: #A66946;
+    padding: .6em;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+}
+
+.item{
+    margin-right: 1em;
+}
+.item a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: inherit;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Ubuntu';
+}
+.item a:hover{
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 4px solid #B8B0BD;
+}
+.logo{
+    width: 40px;
+}
+
+@media (min-width: 768px) and (max-width: 920px) {
+    .logo{
+        width: 50px;
+    }
+}
+@media (min-width: 921px) {
+    .logo{
+        width: 50px;
+    }
+}

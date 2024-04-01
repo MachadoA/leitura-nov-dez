@@ -1,0 +1,33 @@
+.btn{
+    border: none;
+    color: #fff;
+    background-color:#8C4C3E;
+    height: 60px;
+    padding: 0 15px;
+    border-radius: 18px;
+    font-family: 'Overpass', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    margin-bottom: 20px;
+}
+.btn:hover{
+    background-color: #26140E;
+}
+
+
+@media (min-width: 768px) and (max-width: 920px) {
+    .btn{
+        max-width: 140px;
+        width: 100%;
+        padding: 0;
+    }
+}
+@media (min-width: 921px) {
+    .btn{
+        width: 250px;
+        width: 200px;
+        height: 45px;
+        padding: 0;
+    }
+}

@@ -1,0 +1,475 @@
+[
+    {
+        "id": 0, 
+        "week": "de 12 a 19 de novembro",
+        "weekday": "1",
+        "readWeek": "Lucas 1 ao 6",
+        "date": "1",
+        "read": "Lucas 1",
+        "observation": "Considerei domingo 12 de nov - primeiro",
+        "file": "1a-week.pdf"
+    },
+    {
+        "id": 1, 
+        "week": "de 12 a 19 de novembro",
+        "weekday": "1",
+        "readWeek": "Lucas 1 ao 6",
+        "date": "2",
+        "read": "Lucas 2",
+        "file": "1a-week.pdf"
+    },
+    {
+        "id": 2, 
+        "week": "de 12 a 19 de novembro",
+        "weekday": "1",
+        "readWeek": "Lucas 1 ao 6",
+        "date": "3",
+        "read": "Lucas 3",
+        "file": "1a-week.pdf"
+    },
+    {
+        "id": 3, 
+        "week": "de 12 a 19 de novembro",
+        "weekday": "1",
+        "readWeek": "Lucas 1 ao 6",
+        "date": "4",
+        "read": "Lucas 4",
+        "file": "1a-week.pdf"
+    },
+    {
+        "id": 4, 
+        "week": "de 12 a 19 de novembro",
+        "weekday": "1",
+        "readWeek": "Lucas 1 ao 6",
+        "date": "5",
+        "read": "Lucas 5",
+        "file": "1a-week.pdf"
+    },
+    {
+        "id": 5, 
+        "week": "de 12 a 19 de novembro",
+        "weekday": "1",
+        "readWeek": "Lucas 1 ao 6",
+        "date": "6",
+        "read": "Lucas 6",
+        "file": "1a-week.pdf"
+    },
+    {
+        "id": 6, 
+        "week": "de 12 a 19 de novembro",
+        "weekday": "1",
+        "readWeek": "Lucas 1 ao 6",
+        "date": "7",
+        "read": "Resumo",
+        "file": "1a-week.pdf"
+    },
+    {
+        "id": 7, 
+        "week": "de 12 a 19 de novembro",
+        "weekday": "1",
+        "readWeek": "Lucas 1 ao 6",
+        "date": "8",
+        "read": "Resumo",
+        "file": "1a-week.pdf"
+    },
+    {
+        "id": 8, 
+        "week": "de 20 a 26 de novembro",
+        "weekday": "2",
+        "readWeek": "Lucas 7 ao 11",
+        "date": "9",
+        "read": "Lucas 7",
+        "file": "2a-week.pdf"
+    },
+    {
+        "id": 9, 
+        "week": "de 20 a 26 de novembro",
+        "weekday": "2",
+        "readWeek": "Lucas 7 ao 11",
+        "date": "10",
+        "read": "Lucas 8",
+        "file": "2a-week.pdf"
+    },
+    {
+        "id": 10, 
+        "week": "de 20 a 26 de novembro",
+        "weekday": "2",
+        "readWeek": "Lucas 7 ao 11",
+        "date": "11",
+        "read": "Lucas 9",
+        "file": "2a-week.pdf"
+    },
+    {
+        "id": 11, 
+        "week": "de 20 a 26 de novembro",
+        "weekday": "2",
+        "readWeek": "Lucas 7 ao 11",
+        "date": "12",
+        "read": "Lucas 10",
+        "file": "2a-week.pdf"
+    },
+    {
+        "id": 12, 
+        "week": "de 20 a 26 de novembro",
+        "weekday": "2",
+        "readWeek": "Lucas 7 ao 11",
+        "date": "13",
+        "read": "Lucas 11",
+        "file": "2a-week.pdf"
+    },
+    {
+        "id": 13, 
+        "week": "de 20 a 26 de novembro",
+        "weekday": "2",
+        "readWeek": "Lucas 7 ao 11",
+        "date": "14",
+        "read": "Resumo",
+        "file": "2a-week.pdf"
+    },
+    {
+        "id": 14, 
+        "week": "de 20 a 26 de novembro",
+        "weekday": "2",
+        "readWeek": "Lucas 7 ao 11",
+        "date": "15",
+        "read": "Resumo",
+        "file": "2a-week.pdf"
+    },
+    {
+        "id": 15, 
+        "week": "de 27/nov a 03 de dezembro",
+        "weekday": "3",
+        "readWeek": "Lucas 12 ao 16",
+        "date": "16",
+        "read": "Lucas 12",
+        "file": "3a-week.pdf"
+    },
+    {
+        "id": 16, 
+        "week": "de 27/nov a 03 de dezembro",
+        "weekday": "3",
+        "readWeek": "Lucas 12 ao 16",
+        "date": "17",
+        "read": "Lucas 13",
+        "file": "3a-week.pdf"
+    },
+    {
+        "id": 17, 
+        "week": "de 27/nov a 03 de dezembro",
+        "weekday": "3",
+        "readWeek": "Lucas 12 ao 16",
+        "date": "18",
+        "read": "Lucas 14",
+        "file": "3a-week.pdf"
+    },
+    {
+        "id": 18, 
+        "week": "de 27/nov a 03 de dezembro",
+        "weekday": "3",
+        "readWeek": "Lucas 12 ao 16",
+        "date": "19",
+        "read": "Lucas 15",
+        "file": "3a-week.pdf"
+    },
+    {
+        "id": 19, 
+        "week": "de 27 de novembro a 03 de dezembro",
+        "weekday": "3",
+        "readWeek": "Lucas 12 ao 16",
+        "date": "20",
+        "read": "Lucas 16",
+        "file": "3a-week.pdf"
+    },
+    {
+        "id": 20, 
+        "week": "de 27 de novembro a 03 de dezembro",
+        "weekday": "3",
+        "readWeek": "Lucas 12 ao 16",
+        "date": "21",
+        "read": "Resumo",
+        "file": "3a-week.pdf"
+    },
+    {
+        "id": 21, 
+        "week": "de 27 de novembro a 03 de dezembro",
+        "weekday": "3",
+        "readWeek": "Lucas 12 ao 16",
+        "date": "22",
+        "read": "Resumo",
+        "file": "3a-week.pdf"
+    },
+    {
+        "id": 22, 
+        "week": "de 04 a 10 de dezembro",
+        "weekday": "4",
+        "readWeek": "Lucas 17 ao 21",
+        "date": "23",
+        "read": "Lucas 17",
+        "file": "4a-week.pdf"
+    },
+    {
+        "id": 23, 
+        "week": "de 04 a 10 de dezembro",
+        "weekday": "4",
+        "readWeek": "Lucas 17 ao 21",
+        "date": "24",
+        "read": "Lucas 18",
+        "file": "4a-week.pdf"
+    },
+    {
+        "id": 24, 
+        "week": "de 04 a 10 de dezembro",
+        "weekday": "4",
+        "readWeek": "Lucas 17 ao 21",
+        "date": "25",
+        "read": "Lucas 19",
+        "question": "1. O que as pessoas diziam quando Jesus entrou em Jerusalém? ",
+        "file": "4a-week.pdf"
+    },
+    {
+        "id": 25, 
+        "week": "de 04 a 10 de dezembro",
+        "weekday": "4",
+        "readWeek": "Lucas 17 ao 21",
+        "date": "26",
+        "read": "Lucas 20",
+        "question": "1. O que é ensinado sobre ressurreição? Quem se casa com quem? 2. Quem eram os escribas? ",
+        "file": "4a-week.pdf"
+    },
+    {
+        "id": 26, 
+        "week": "de 04 a 10 de dezembro",
+        "weekday": "4",
+        "readWeek": "Lucas 17 ao 21",
+        "date": "27",
+        "read": "Lucas 21",
+        "question": "1. O sermão profético é dividido neste capítulo em 4 partes. Quais são e o que trata cada parte? ",
+        "file": "4a-week.pdf"
+    },
+    {
+        "id": 27, 
+        "week": "de 04 a 10 de dezembro",
+        "weekday": "4",
+        "readWeek": "Lucas 17 ao 21",
+        "date": "28",
+        "read": "Resumo",
+        "file": "4a-week.pdf"
+    },
+    {
+        "id": 28, 
+        "week": "de 04 a 10 de dezembro",
+        "weekday": "4",
+        "readWeek": "Lucas 17 ao 21",
+        "date": "29",
+        "read": "Resumo",
+        "file": "4a-week.pdf"
+    },
+    {
+        "id": 29, 
+        "week": "de 11 a 16 de dezembro",
+        "weekday": "5",
+        "readWeek": "Lucas 22 ao 24",
+        "date": "30",
+        "read": "Lucas 22",
+        "question": "1. Neste capítulo, no meio do conflito do plano de morte até o interrogatório de Jesus perante o Sinédrio, há a narrativa da última Páscoa. Dentre todos estes eventos, qual mais mexeu com a tua alma? ",
+        "file": "5a-week.pdf"
+    },
+    {
+        "id": 30, 
+        "week": "de 11 a 16 de dezembro",
+        "weekday": "5",
+        "readWeek": "Lucas 22 ao 24",
+        "date": "31",
+        "read": "Lucas 23",
+        "question": "1. Qual (ou quais) era(m) a culpa de Jesus? 2. Quem foi crucificado com ele? E qual a promessa que Jesus fez a um deles? 3.Como foi a morte de Jesus?",
+        "file": "5a-week.pdf"
+    },
+    {
+        "id": 31, 
+        "week": "de 11 a 16 de dezembro",
+        "weekday": "5",
+        "readWeek": "Lucas 22 ao 24",
+        "date": "32",
+        "read": "Lucas 24",
+        "question": "1. Como se comprovou a ressurreição de Jesus? Quem o viu? ",
+        "file": "5a-week.pdf"
+
+    },
+    {
+        "id": 32, 
+        "week": "de 11 a 16 de dezembro",
+        "weekday": "5",
+        "readWeek": "Lucas 22 ao 24",
+        "date": "33",
+        "read": "Resumo",
+        "file": "5a-week.pdf"
+
+    },
+    {
+        "id": 33, 
+        "week": "de 11 a 16 de dezembro",
+        "weekday": "5",
+        "readWeek": "Lucas 22 ao 24",
+        "date": "34",
+        "read": "Resumo",
+        "file": "5a-week.pdf"
+    },
+    {
+        "id": 34, 
+        "week": "de 11 a 16 de dezembro",
+        "weekday": "5",
+        "readWeek": "Lucas 22 ao 24",
+        "date": "35",
+        "read": "Enviar resumo. Último dia!",
+        "file": "5a-week.pdf"
+    },
+    {
+        "id": 35, 
+        "week": "de 17 a 24 de dezembro",
+        "weekday": "6",
+        "readWeek": "Atos 1 ao 18",
+        "date": "37",
+        "read": "Atos 1 ao 3",
+        "question": "1. Nestes capítulos, ocorrem o cumprimento da promessa de Jesus ao afirmar “João batizou com água, mas vós sereis batizados com o Espírito Santo”. Como o Espírito Santo “desceu” sobre os que clamaram e como influenciou Pedro no discurso no templo? ",
+        "file": "6a-week.pdf"
+    },
+    {
+        "id": 36, 
+        "week": "de 17 a 24 de dezembro",
+        "weekday": "6",
+        "readWeek": "Atos 1 ao 18",
+        "date": "38",
+        "read": "Atos 4 ao 6",
+        "question": "1. Aqui vemos o surgimento da Igreja. Explique como era a comunidade, o que fizeram Ananias e Safira, e qual a função do diácono?",
+        "file": "6a-week.pdf"
+    },
+    {
+        "id": 37, 
+        "week": "de 17 a 24 de dezembro",
+        "weekday": "6",
+        "readWeek": "Atos 1 ao 18",
+        "date": "38",
+        "read": "Atos 7 ao 9",
+         "question": "1. Relacione a morte de Estevão e a conversão de Saulo. 2. Em que aspeto Estevão se assemelhou a Jesus ao morrer? 3. Quem conduziu Filipe e por quê?",
+        "file": "6a-week.pdf"
+    },
+    {
+        "id": 38, 
+        "week": "de 17 a 24 de dezembro",
+        "weekday": "6",
+        "readWeek": "Atos 1 ao 18",
+        "date": "39",
+        "read": "Atos 10 ao 12",
+         "question": "1. Qual o significado das visões que Pedro teve e sua relação com a nossa conversão, os gentios?",
+        "file": "6a-week.pdf"
+    },
+    {
+        "id": 39, 
+        "week": "de 17 a 24 de dezembro",
+        "weekday": "6",
+        "readWeek": "Atos 1 ao 18",
+        "date": "40",
+        "read": "Atos 13 ao 15",
+         "question": "1. Barnabé e Saulo foram enviados a igreja de Antioquia. Quem foi a pessoa responsável por este envio? 2. Dentro desses capítulos, quantos cidades foram impactadas pela ministração sobre Jesus e quais foram?",
+        "file": "6a-week.pdf"
+    },
+    {
+        "id": 40, 
+        "week": "de 17 a 24 de dezembro",
+        "weekday": "6",
+        "readWeek": "Atos 1 ao 18",
+        "date": "41",
+        "read": "Atos 16 ao 18",
+         "question": "1. Como se chamavam as cidades visitadas por Paulo nos capítulos de 16 a 18 de Atos? 2. O altar ateniense dedicava-se ao Deus desconhecido. Quem é Ele?",
+        "file": "6a-week.pdf"
+    },
+    {
+        "id": 41, 
+        "week": "de 17 a 24 de dezembro",
+        "weekday": "6",
+        "readWeek": "Atos 1 ao 18",
+        "date": "42",
+        "read": "Resumo",
+        "file": "6a-week.pdf"
+    },
+    {
+        "id": 42, 
+        "week": "de 17 a 24 de dezembro",
+        "weekday": "6",
+        "readWeek": "Atos 1 ao 18",
+        "date": "43",
+        "read": "Resumo",
+        "file": "6a-week.pdf"
+    },
+    {
+        "id": 43, 
+        "week": "de 25 a 31 de dezembro",
+        "weekday": "7",
+        "readWeek": "Atos 19 ao 28",
+        "date": "44",
+        "read": "Atos 19 e 20",
+        "question": "",
+        "file": "7a-week.pdf"
+    },
+    {
+        "id": 44, 
+        "week": "de 25 a 31 de dezembro",
+        "weekday": "7",
+        "readWeek": "Atos 19 ao 28",
+        "date": "45",
+        "read": "Atos 21 e 22",
+        "question": "",
+        "file": "7a-week.pdf"
+    },
+    {
+        "id": 45, 
+        "week": "de 25 a 31 de dezembro",
+        "weekday": "7",
+        "readWeek": "Atos 19 ao 28",
+        "date": "46",
+        "read": "Atos 23 e 24",
+        "question": "",
+        "file": "7a-week.pdf"
+    },
+    {
+        "id": 46, 
+        "week": "de 25 a 31 de dezembro",
+        "weekday": "7",
+        "readWeek": "Atos 19 ao 28",
+        "date": "47",
+        "read": "Atos 25 e 26",
+        "question": "",
+        "file": "7a-week.pdf"
+    },
+    {
+        "id": 47, 
+        "week": "de 25 a 31 de dezembro",
+        "weekday": "7",
+        "readWeek": "Atos 19 ao 28",
+        "date": "48",
+        "read": "Atos 27 e 28",
+        "question": "",
+        "file": "7a-week.pdf"
+    },
+    {
+        "id": 48, 
+        "week": "de 25 a 31 de dezembro",
+        "weekday": "7",
+        "readWeek": "Atos 19 ao 28",
+        "date": "49",
+        "read": "Resumo",
+        "question": "",
+        "file": "7a-week.pdf"
+    },
+    {
+        "id": 49, 
+        "week": "de 25 a 31 de dezembro",
+        "weekday": "7",
+        "readWeek": "Atos 19 ao 28",
+        "date": "50",
+        "read": "Enviar resumo. Último dia!",
+        "question": "",
+        "file": "7a-week.pdf"
+    }
+
+]

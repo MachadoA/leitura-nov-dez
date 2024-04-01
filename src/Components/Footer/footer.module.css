@@ -1,0 +1,15 @@
+.footer{
+    position: static;
+    width: 100vw;
+    max-width: 99%;
+    height: 20vh;
+    background-color: #26140E;
+    color: hsl(240, 2%, 79%);
+    padding: 40px 0;
+    margin: 0;
+}
+
+.name{
+    text-align: center;
+    padding-top: 2em;
+}

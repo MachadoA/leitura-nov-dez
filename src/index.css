@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: #151515;
+  background-color: #f1efef67;
+}
+
+p{font-size: 16px; font-family: 'Overpass', sans-serif;}
+button, a{font-size: 14px; font-family: 'Overpass', sans-serif;}
+a{font-size: 14px; font-family: 'Ubuntu', sans-serif;}
+
+h1{font-size: 20px; color: #151515; font-family: 'Ubuntu', sans-serif;}
+h2{font-size: 18px; color: #151515; font-family: 'Ubuntu', sans-serif;}
+
+li a{font-family: 'Ubuntu'}
+@media(min-width:768px){
+  p{font-size: 16px;}
+  button, a{font-size: 16px;}
+  h1{font-size: 24px;}
+  h2{font-size: 22px;}
+}
+
+

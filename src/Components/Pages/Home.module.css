@@ -1,0 +1,51 @@
+.homeContainer{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.homeContainer h1{text-align: center; }
+
+.bible{
+    max-width: 350px;
+    width: 100%;
+    margin: 15px 0;
+    border-radius: 18px;
+}
+
+.btnSide{
+    text-align: center;
+    display: flex;
+    gap: 2em;
+}
+
+
+@media (min-width: 768px) and (max-width: 920px) {
+    .bible{
+        max-width: 768px;
+        width: 60%;
+    }
+    .btnSide{
+        display: flex;
+        justify-content: space-evenly;
+        width: 768px;
+        padding-bottom: 2em;
+    }
+}
+@media (min-width: 921px) {
+    .bible{
+        max-width: 900px;
+        width: 60%;
+    }
+    .btnSide{
+        display: flex;
+        justify-content: space-evenly;
+        width: 921px;
+        max-width: 70%;
+        padding-bottom: 2em;
+    }
+}
