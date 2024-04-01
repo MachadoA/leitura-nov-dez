@@ -4,18 +4,12 @@
 .date{
     font-weight: bold;
     padding: 20px 0;
-<<<<<<< HEAD
     margin-top: 50px;
-=======
->>>>>>> 09ec6a1245cc17e9de1ff5e2ddcca7db0a2b5202
 }
 
 .weekContainer{
     width: 100%;
-<<<<<<< HEAD
     height: 70vh;
-=======
->>>>>>> 09ec6a1245cc17e9de1ff5e2ddcca7db0a2b5202
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,16 +28,10 @@
 
 .main{
     margin: 2em 0;
-<<<<<<< HEAD
     background: #8C4C3E;
     width: 60%;
     height: 50%;
     text-align: center;
-=======
-    padding: 2em 15px;
-    text-align: center;
-    background: linear-gradient(90deg, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
->>>>>>> 09ec6a1245cc17e9de1ff5e2ddcca7db0a2b5202
     border-radius: 18px;
     color: #fff;
 }
