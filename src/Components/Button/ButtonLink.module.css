@@ -1,7 +1,11 @@
 .btnLink{
     border: none;
     color: #fff;
+<<<<<<< HEAD
     background-color:#8C4C3E;
+=======
+    background-color:#c92135;
+>>>>>>> 09ec6a1245cc17e9de1ff5e2ddcca7db0a2b5202
     height: 60px;
     padding: 0 15px;
     border-radius: 18px;
@@ -16,7 +20,11 @@
     justify-content: center;
 }
 .btnLink:hover{
+<<<<<<< HEAD
     background-color: #26140E;
+=======
+    background-color: hsl(237, 23%, 32%);
+>>>>>>> 09ec6a1245cc17e9de1ff5e2ddcca7db0a2b5202
 }
 
 @media(min-width: 900px){
