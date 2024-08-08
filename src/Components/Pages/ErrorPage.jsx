@@ -1,7 +1,7 @@
 import React from 'react'
 import { useRouteError } from 'react-router-dom'
-import Header from '../Header/Header';
-import Footer from '../Footer/Footer';
+import Header from '../layout/Header/Header';
+import Footer from '../layout/Footer/Footer';
 
 import styles from './ErrorPage.module.css';
 

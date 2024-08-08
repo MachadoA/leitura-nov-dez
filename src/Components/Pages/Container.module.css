@@ -29,12 +29,12 @@
 @media (min-width: 768px) and (max-width: 920px) {
     .container{
         max-width: 768px;
-        height: auto;
+        height: 95vh;
     }
 }
 @media (min-width: 921px) {
     .container{
         max-width: 921px;
-        height: auto;
+        height: 95vh;
     }
 }

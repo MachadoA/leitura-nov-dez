@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import styles from './Header.module.css';
-import readingBible from '../../img/reading-bible.png'
+import readingBible from '../../../img/reading-bible.png'
 
 
 export default function Header() {
